@@ -1,6 +1,7 @@
 ﻿using System;
 using DataStructures;
 using System.Collections;
+using System.Runtime.Remoting.Messaging;
 
 namespace DataStructures
 {
@@ -16,6 +17,22 @@ namespace DataStructures
 			return temp;
 		}
 
+		/// <summary>
+		/// Swap the specified val1 and val2.
+		/// </summary>
+		/// <param name="val1">Val1.</param>
+		/// <param name="val2">Val2.</param>
+		private void Swap (ref T val1, ref T val2) {
+			T temp;
+			temp = val1;
+			val1 = val2;
+			val2 = temp;
+		}
+		/// <summary>
+		/// Insert utility.
+		/// </summary>
+		/// <param name="temp">Temp.</param>
+		/// <param name="val">Value.</param>
 		private void InsertUtil (ref Node temp, T val) {
 			if (temp == null)
 				temp = NewNode (val);
@@ -23,6 +40,32 @@ namespace DataStructures
 				InsertUtil (ref temp.left, val);
 			} else {
 				InsertUtil (ref temp.right, val);
+			}
+		}
+
+		private void DeleteUtil (ref Node temp, T val) {
+			if (temp == null)
+				return;
+
+			if (val.CompareTo (temp.data) < 0)
+				DeleteUtil (ref temp.left, val);
+			else if (val.CompareTo (temp.data) > 0)
+				DeleteUtil (ref temp.right, val);
+			else {
+				if (temp.left == null && temp.right == null)
+					temp = null;
+				else if (temp.left != null && temp.right == null)
+					temp = temp.left;
+				else if (temp.left == null && temp.right != null)
+					temp = temp.right;
+				else {
+					Node leftMost = temp.right;
+					while (leftMost.left != null)
+						leftMost = leftMost.left;
+					Swap (ref temp.data, ref leftMost.data);
+					DeleteUtil (ref temp.right, val);
+				}
+					
 			}
 		}
 
@@ -83,8 +126,17 @@ namespace DataStructures
 			}
 
 		}
+
+		/// <summary>
+		/// Insert the specified val.
+		/// </summary>
+		/// <param name="val">Value.</param>
 		public void Insert (T val) {
 			InsertUtil (ref root, val);
+		}
+
+		public void Delete (T val) {
+			DeleteUtil (ref root, val);
 		}
 
 		/// <summary>

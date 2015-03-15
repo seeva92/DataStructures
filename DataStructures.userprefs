@@ -1,10 +1,37 @@
 ﻿<Properties StartupItem="BinarySearchTree/BinarySearchTree.csproj" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="LinkedList/LinkedListTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Stack/StkTest.cs">
     <Files>
-      <File FileName="LinkedList/LinkedListTest.cs" Line="25" Column="25" />
-      <File FileName="LinkedList/LL.cs" Line="22" Column="22" />
+      <File FileName="BinarySearchTree/BinarySearch.cs" Line="1" Column="1" />
+      <File FileName="BinarySearchTree/BinarySearchTreeTest.cs" Line="1" Column="1" />
+      <File FileName="Queue/Queue.cs" Line="18" Column="18" />
+      <File FileName="Queue/QueueTest.cs" Line="1" Column="1" />
+      <File FileName="Stack/StkTest.cs" Line="1" Column="1" />
+      <File FileName="Stack/Stack.cs" Line="16" Column="16" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="BinarySearchTree" expanded="True" selected="True">
+            <Node name="References" expanded="True" />
+          </Node>
+          <Node name="Queue" expanded="True" />
+          <Node name="Stack" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>root</Value>
+          <Value>i</Value>
+          <Value>rand</Value>
+          <Value>tree</Value>
+          <Value>curr</Value>
+          <Value>prev</Value>
+          <Value>stack</Value>
+          <Value>queue</Value>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
