@@ -5,29 +5,34 @@ namespace LinkedList
 
 		public int Count { get; set; }
 
-		public class Node<T> {
-			public Node<T> next;
+		private class Node {
+			public Node next;
 			public T data;
 		}
-		Node<T> head;
+		private Node head;
 
-		public Node<T> Last {
+		private Node Last {
 
 			get {
-				Node<T> temp = head;
+				Node temp = head;
 				while (temp.next != null)
 					temp = temp.next;
 				return temp;
 			}
 		}
+		public bool IsEmpty () {
+			if (head == null)
+				return true;
+			return false;
+		}
 		public void Add (T val) {
-			if (head == null) {
-				head = new Node<T> ();
+			if (IsEmpty ()) {
+				head = new Node ();
 				head.data = val;
 			} else {
 
-				Node<T> temp = Last;
-				temp.next = new Node<T> ();
+				Node temp = Last;
+				temp.next = new Node ();
 				temp.next.data = val;
 			}
 			Count = Count + 1;
@@ -37,7 +42,7 @@ namespace LinkedList
 			if (Position > Count || Position < 0)
 				return;
 
-			Node<T> newNode = new Node<T> () {
+			Node newNode = new Node () {
 				data = val
 			};
 
@@ -49,7 +54,7 @@ namespace LinkedList
 				newNode.data = val;
 				Last.next = newNode;
 			} else {
-				Node<T> temp = head;
+				Node temp = head;
 				int i = 1;
 				while (temp != null && i < Position) {
 					temp = temp.next;
@@ -69,7 +74,7 @@ namespace LinkedList
 			if (Position == 0)
 				head = head.next;
 			else {
-				Node<T> temp = head;
+				Node temp = head;
 				int i = 1;
 				while (temp != null && i < Position) {
 					temp = temp.next;
@@ -82,7 +87,7 @@ namespace LinkedList
 		}
 
 		public void Display () {
-			Node<T> temp = head;
+			Node temp = head;
 			while (temp != null) {
 				Console.WriteLine (temp.data);
 				temp = temp.next;

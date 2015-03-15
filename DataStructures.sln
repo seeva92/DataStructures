@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{2E72D788-D1E1-4213-992A-1905C191C6D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "Stack\Stack.csproj", "{60AF22B0-8688-4C4B-99FC-F6FE4615CC85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj", "{5B839277-FF9F-4BB2-95E5-BB1AE53625BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +17,13 @@ Global
 		{2E72D788-D1E1-4213-992A-1905C191C6D2}.Debug|x86.Build.0 = Debug|x86
 		{2E72D788-D1E1-4213-992A-1905C191C6D2}.Release|x86.ActiveCfg = Release|x86
 		{2E72D788-D1E1-4213-992A-1905C191C6D2}.Release|x86.Build.0 = Release|x86
+		{5B839277-FF9F-4BB2-95E5-BB1AE53625BE}.Debug|x86.ActiveCfg = Debug|x86
+		{5B839277-FF9F-4BB2-95E5-BB1AE53625BE}.Debug|x86.Build.0 = Debug|x86
+		{5B839277-FF9F-4BB2-95E5-BB1AE53625BE}.Release|x86.ActiveCfg = Release|x86
+		{5B839277-FF9F-4BB2-95E5-BB1AE53625BE}.Release|x86.Build.0 = Release|x86
+		{60AF22B0-8688-4C4B-99FC-F6FE4615CC85}.Debug|x86.ActiveCfg = Debug|x86
+		{60AF22B0-8688-4C4B-99FC-F6FE4615CC85}.Debug|x86.Build.0 = Debug|x86
+		{60AF22B0-8688-4C4B-99FC-F6FE4615CC85}.Release|x86.ActiveCfg = Release|x86
+		{60AF22B0-8688-4C4B-99FC-F6FE4615CC85}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
