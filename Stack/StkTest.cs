@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Stack
+namespace DataStructures
 {
 	public class StkTest {
 		static void Main () {

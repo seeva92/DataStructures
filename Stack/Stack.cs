@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Stack
+namespace DataStructures
 {
 	public class Stack<T> {
 		private class Node {

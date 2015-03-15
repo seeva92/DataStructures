@@ -1,5 +1,5 @@
 ﻿using System;
-namespace LinkedList
+namespace DataStructures
 {
 	public class LL<T> {
 

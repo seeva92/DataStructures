@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Threading.Tasks;
 
-
-namespace Queue
+namespace DataStructures
 {
 	public class Queue<T> {
 		private class Node {
@@ -13,13 +11,13 @@ namespace Queue
 		public void Enqueue (T val) {
 			if (IsEmpty ()) {
 				front = new Node (){ data = val };
-				rear = new Node (){ data = val };
+				rear = front;
 			} else {
 				rear.next = new Node (){ data = val };
 				rear = rear.next;
 			}
 		}
-		public void Dequeue (T val) {
+		public void Dequeue () {
 			if (IsEmpty ())
 				return;
 			front = front.next;
@@ -35,6 +33,15 @@ namespace Queue
 			if (front == null)
 				return true;
 			return false;
+		}
+
+		public void Clear () {
+			while (front != null) {
+				Node temp = front;
+				front = front.next;
+				temp = null;
+			}
+			rear = null;
 		}
 
 	}

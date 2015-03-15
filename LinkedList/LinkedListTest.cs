@@ -1,5 +1,5 @@
 ﻿using System;
-namespace LinkedList
+namespace DataStructures
 {
 	public class LinkedListTest {
 		static void Main () {

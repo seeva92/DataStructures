@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Queue
+namespace DataStructures
 {
 	public class QueueTest {
 		static void Main () {
@@ -9,7 +9,7 @@ namespace Queue
 				queue.Enqueue (v);
 			Console.WriteLine (queue.Front ());
 			foreach (var v in a)
-				queue.Dequeue (v);
+				queue.Dequeue ();
 			Console.WriteLine (queue.Front ());
 		}
 	}
