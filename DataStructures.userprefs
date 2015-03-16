@@ -1,13 +1,11 @@
-﻿<Properties StartupItem="BinarySearchTree/BinarySearchTree.csproj" GitUserInfo="UsingGIT">
+﻿<Properties StartupItem="Trie/Trie.csproj" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Trie/Trie.cs">
     <Files>
-      <File FileName="BinarySearchTree/BinarySearch.cs" Line="31" Column="31" />
-      <File FileName="BinarySearchTree/BinarySearchTreeTest.cs" Line="4" Column="4" />
-      <File FileName="Queue/Queue.cs" Line="1" Column="1" />
-      <File FileName="Queue/QueueTest.cs" Line="1" Column="1" />
-      <File FileName="Stack/StkTest.cs" Line="2" Column="2" />
-      <File FileName="Stack/Stack.cs" Line="1" Column="1" />
+      <File FileName="TernarySearchTree/TernarySearchTreeTest.cs" Line="13" Column="13" />
+      <File FileName="TernarySearchTree/TernarySearchTree.cs" Line="10" Column="10" />
+      <File FileName="Trie/TrieTest.cs" Line="4" Column="4" />
+      <File FileName="Trie/Trie.cs" Line="21" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

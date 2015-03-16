@@ -9,12 +9,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree", "BinarySearchTree\BinarySearchTree.csproj", "{BF913A71-E707-428A-8AD8-04054BC7436E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TernarySearchTree", "TernarySearchTree\TernarySearchTree.csproj", "{25057B80-A610-48B6-BE30-6B4816A514B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trie", "Trie\Trie.csproj", "{663D9195-0D91-4DF0-8D39-3457B5CA39A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25057B80-A610-48B6-BE30-6B4816A514B1}.Debug|x86.ActiveCfg = Debug|x86
+		{25057B80-A610-48B6-BE30-6B4816A514B1}.Debug|x86.Build.0 = Debug|x86
+		{25057B80-A610-48B6-BE30-6B4816A514B1}.Release|x86.ActiveCfg = Release|x86
+		{25057B80-A610-48B6-BE30-6B4816A514B1}.Release|x86.Build.0 = Release|x86
 		{2E72D788-D1E1-4213-992A-1905C191C6D2}.Debug|x86.ActiveCfg = Debug|x86
 		{2E72D788-D1E1-4213-992A-1905C191C6D2}.Debug|x86.Build.0 = Debug|x86
 		{2E72D788-D1E1-4213-992A-1905C191C6D2}.Release|x86.ActiveCfg = Release|x86
@@ -27,6 +35,10 @@ Global
 		{60AF22B0-8688-4C4B-99FC-F6FE4615CC85}.Debug|x86.Build.0 = Debug|x86
 		{60AF22B0-8688-4C4B-99FC-F6FE4615CC85}.Release|x86.ActiveCfg = Release|x86
 		{60AF22B0-8688-4C4B-99FC-F6FE4615CC85}.Release|x86.Build.0 = Release|x86
+		{663D9195-0D91-4DF0-8D39-3457B5CA39A2}.Debug|x86.ActiveCfg = Debug|x86
+		{663D9195-0D91-4DF0-8D39-3457B5CA39A2}.Debug|x86.Build.0 = Debug|x86
+		{663D9195-0D91-4DF0-8D39-3457B5CA39A2}.Release|x86.ActiveCfg = Release|x86
+		{663D9195-0D91-4DF0-8D39-3457B5CA39A2}.Release|x86.Build.0 = Release|x86
 		{BF913A71-E707-428A-8AD8-04054BC7436E}.Debug|x86.ActiveCfg = Debug|x86
 		{BF913A71-E707-428A-8AD8-04054BC7436E}.Debug|x86.Build.0 = Debug|x86
 		{BF913A71-E707-428A-8AD8-04054BC7436E}.Release|x86.ActiveCfg = Release|x86
