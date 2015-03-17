@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TernarySearchTree", "Ternar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trie", "Trie\Trie.csproj", "{663D9195-0D91-4DF0-8D39-3457B5CA39A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegmentTree", "SegmentTree\SegmentTree.csproj", "{5EB6631C-456B-49E6-A863-FAE911AC60EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -31,6 +33,10 @@ Global
 		{5B839277-FF9F-4BB2-95E5-BB1AE53625BE}.Debug|x86.Build.0 = Debug|x86
 		{5B839277-FF9F-4BB2-95E5-BB1AE53625BE}.Release|x86.ActiveCfg = Release|x86
 		{5B839277-FF9F-4BB2-95E5-BB1AE53625BE}.Release|x86.Build.0 = Release|x86
+		{5EB6631C-456B-49E6-A863-FAE911AC60EF}.Debug|x86.ActiveCfg = Debug|x86
+		{5EB6631C-456B-49E6-A863-FAE911AC60EF}.Debug|x86.Build.0 = Debug|x86
+		{5EB6631C-456B-49E6-A863-FAE911AC60EF}.Release|x86.ActiveCfg = Release|x86
+		{5EB6631C-456B-49E6-A863-FAE911AC60EF}.Release|x86.Build.0 = Release|x86
 		{60AF22B0-8688-4C4B-99FC-F6FE4615CC85}.Debug|x86.ActiveCfg = Debug|x86
 		{60AF22B0-8688-4C4B-99FC-F6FE4615CC85}.Debug|x86.Build.0 = Debug|x86
 		{60AF22B0-8688-4C4B-99FC-F6FE4615CC85}.Release|x86.ActiveCfg = Release|x86

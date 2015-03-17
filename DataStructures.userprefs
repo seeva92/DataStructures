@@ -1,4 +1,4 @@
-﻿<Properties StartupItem="Trie/Trie.csproj" GitUserInfo="UsingGIT">
+﻿<Properties StartupItem="SegmentTree/SegmentTree.csproj" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Trie/TrieTest.cs">
     <Files>
