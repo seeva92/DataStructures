@@ -1,11 +1,9 @@
 ﻿<Properties StartupItem="Trie/Trie.csproj" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Trie/Trie.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Trie/TrieTest.cs">
     <Files>
-      <File FileName="TernarySearchTree/TernarySearchTreeTest.cs" Line="13" Column="13" />
-      <File FileName="TernarySearchTree/TernarySearchTree.cs" Line="10" Column="10" />
-      <File FileName="Trie/TrieTest.cs" Line="4" Column="4" />
-      <File FileName="Trie/Trie.cs" Line="21" Column="21" />
+      <File FileName="Trie/TrieTest.cs" Line="26" Column="26" />
+      <File FileName="Trie/Trie.cs" Line="63" Column="63" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
